@@ -40,8 +40,7 @@ export async function performHttpRequest({
 			if (data.Body === Body.MultipartFormData) {
 				const mimeType = mime.lookup(file.uri) || 'text/plain';
 				const fileExtension = mime.extension(mimeType) || 'txt';
-				const fileFormName = mimeType.split('/')[0];
-
+				const fileFormName = data.FileFormName;
 				const formData = new FormData();
 				formData.append(fileFormName, {
 					uri: file.uri,

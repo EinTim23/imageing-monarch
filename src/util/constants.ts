@@ -41,7 +41,7 @@ export const Destinations: DestinationObject[] = [
 	},
 	{
 		name: DestinationNames.Custom,
-		getRemotePath: data => data.url,
+		getRemotePath: data => data.data.url,
 		getDeleteEndpoint: data => data.deletion_url,
 		deletable: true,
 	},
