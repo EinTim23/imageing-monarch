@@ -1,16 +1,4 @@
-<p align="center">
-  <img src="https://imageing.org/assets/Mark.png" height="250" width="250" >
-</p>
-
-[![Android Build](https://github.com/ImageingApp/Imageing/actions/workflows/android-build.yml/badge.svg)](https://github.com/ImageingApp/Imageing/actions/workflows/android-build.yml)
-[![iOS Build](https://github.com/ImageingApp/Imageing/actions/workflows/ios-build.yml/badge.svg)](https://github.com/ImageingApp/Imageing/actions/workflows/ios-build.yml)
-[![GitHub Release](https://img.shields.io/github/v/release/ImageingApp/Imageing?include_prereleases)](https://github.com/ImageingApp/Imageing/releases/latest)
-[![Discord](https://badgen.net/discord/online-members/9UK5ZcY6By)](https://discord.gg/9UK5ZcY6By)
-
-| Android | iOS |
-|:-:|:-:|
-| [<img src="https://raw.githubusercontent.com/jitsi/jitsi-meet/master/resources/img/google-play-badge.png" height="50">](https://play.google.com/store/apps/details?id=org.imageing.app) | [<img src="https://raw.githubusercontent.com/jitsi/jitsi-meet/master/resources/img/appstore-badge.png" height="50">](https://play.google.com/store/apps/details?id=org.imageing.app) |
-
+This is a fork that fixes a few bugs as the original project has been abandoned. It's mainly made for the use with MonarchUpload.
 ## About
 
 imageing (and so are you!) is a modern file sharing app for Android and iOS.
